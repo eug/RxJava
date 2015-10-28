@@ -1699,7 +1699,7 @@ public class Single<T> {
      * @return an {@link Observable} that emits a single item T.
      */
     public final Observable<T> toObservable() {
-    	return asObservable(this);
+        return asObservable(this);
     }
 
     /**
